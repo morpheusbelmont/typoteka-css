@@ -1,1 +1,45 @@
 
+:root {
+  --vinotinto: #800020;
+  --gris-suave: #f7f7f7;
+  --fuente-principal: 'Arial', sans-serif;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  background-color: var(--gris-suave);
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--vinotinto);
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.text-vinotinto {
+  color: var(--vinotinto);
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.txt-sm {
+  font-size: 0.85rem;
+}
+
+.txt-lg {
+  font-size: 1.5rem;
+}
